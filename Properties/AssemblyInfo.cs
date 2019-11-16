@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Parker Hannfin")]
 [assembly: AssemblyProduct("SwitchTo")]
-[assembly: AssemblyCopyright("Copyright © 2016 ParkerHannifin")]
+[assembly: AssemblyCopyright("Copyright © 2016-2019 ParkerHannifin")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
