@@ -63,7 +63,6 @@
     <None Include="App.config" />
     <None Include="PostBuild.bat" />
     <None Include="README.md" />
-    <None Include="SwitchTo.docx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="license.txt" />

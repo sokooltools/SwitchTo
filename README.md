@@ -6,9 +6,9 @@ optionally send keys to it.
 
 Many times when you are running a program such as a 'VMWare vSphere Client', and you have 
 a corresponding open window such as a console window which you have minimized to the task 
-bar, it cannot easily be restored.
+bar, it cannot be easily restored.
 
-This MS Window's mini-application provides you with an easy, very 'fast' way to solve this 
+This Microsoft Window's mini-application provides you with an easy, very 'fast' way to solve this 
 problem:
 
 Create a shortcut to the following application:
@@ -20,7 +20,7 @@ to “Switch To”, i.e., the title of the window to bring to the front of all other
 on the desktop.
 
 Actually all you need provide is the minimum number of characters the title of the window 
-begins with which can uniquely identify it from all other windows (for example: "EMN015U").
+begins with which can uniquely identify it from all other window titles of current processes (an example be something like: "EMN015U").
 
 Now whenever you double-click that particular ‘SwitchTo’ shortcut, the window with the 
 aforementioned title, will immediately be displayed on top of all other windows!
@@ -30,17 +30,17 @@ aforementioned title, will immediately be displayed on top of all other windows!
 Optionally you can specify as a second argument, a key combination to be sent to the 
 window subsequent to it being successfully switched to.
 
-For example: specify "%(wf)" as the key combination to automatically enter full-screen 
-mode in a VMware window.
+For example in VMWare, you could specify "%(wf)" as the key combination to automatically enter full-screen 
+mode.
 
 The special keys combination characters are as follows: 
   + = = shift; 
   + % = alt; 
   + ^ = ctrl;
 
-NOTE: If you double-click the application directly (i.e., without providing arguments), 
-you will get an informational message indicating the need to provide at minimum one 
+NOTE: If you double-click the application directly (i.e., without providing any arguments), 
+you will get an informational message indicating the need to provide at a minimum one 
 'argument'. 
 
-If you provide a window ‘title’ as an argument which does not exist, you will receive a 
-warning message without a window being brought forward.
+If you run SwitchTo with a particular window ‘title’ as an argument which does not exist in the current list of running processes, you will receive a 
+warning message - with no window being brought forward.
