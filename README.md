@@ -14,15 +14,15 @@ problem:
 Create a shortcut to the following application:
  
 `%ProgramFiles(x86)%\SokoolTools\SwitchTo\SwitchTo.exe`
-
-Modify the shortcut, providing as the first argument, the ëtitleí of the window you want 
-to ìSwitch Toî, i.e., the title of the window to bring to the front of all other windows 
+ 
+Modify the shortcut, providing as the first argument, the ‚Äòtitle‚Äô of the window you want 
+to ‚ÄúSwitch To‚Äù, i.e., the title of the window to bring to the front of all other windows 
 on the desktop.
 
 Actually all you need provide is the minimum number of characters the title of the window 
 begins with which can uniquely identify it from all other window titles of current processes (an example be something like: "EMN015U").
 
-Now whenever you double-click that particular ëSwitchToí shortcut, the window with the 
+Now whenever you double-click that particular ‚ÄòSwitchTo‚Äô shortcut, the window with the 
 aforementioned title, will immediately be displayed on top of all other windows!
 
 ### Options
@@ -42,5 +42,5 @@ NOTE: If you double-click the application directly (i.e., without providing any 
 you will get an informational message indicating the need to provide at a minimum one 
 'argument'. 
 
-If you run SwitchTo with a particular window ëtitleí as an argument which does not exist in the current list of running processes, you will receive a 
+If you run SwitchTo with a particular window ‚Äòtitle‚Äô as an argument which does not exist in the current list of running processes, you will receive a 
 warning message - with no window being brought forward.
